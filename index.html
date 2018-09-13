@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Glyph-Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/main.processed.css">
+     
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/lottie.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+<!--HIDE PRELOAD SCREEN FOR NOW    
+<div class="container-fluid pre-load-container">
+  <script src="js/TweenMax.min.js"></script>
+    <div class="col-md preload-col">
+    <svg width="401px" id="main-logo" height="76px" viewBox="0 0 401 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M31.858976,63.7 C12.6382715,63.7 0,49.9745856 0,32.0259669 C0,14.6052486 13.1648661,0 31.6834445,0 C40.8988508,0 47.042455,2.19958564 52.6594645,6.2468232 C53.7126538,7.03867403 54.8536089,8.53439227 54.8536089,10.6459945 C54.8536089,13.5494475 52.483933,16.0129834 49.4998967,16.0129834 C48.0956443,16.0129834 47.042455,15.3970994 46.1647972,14.7812155 C42.2153374,11.8777624 37.9148145,9.94212707 31.2446156,9.94212707 C19.9228307,9.94212707 11.3217849,19.8842541 11.3217849,31.6740331 C11.3217849,44.5196133 19.6595334,53.8458564 32.2100391,53.8458564 C38.0025802,53.8458564 43.2685267,51.9982044 47.042455,49.1827348 C47.042455,45.2528085 47.042455,41.4108656 47.042455,37.6569061 C47.042455,32.0259669 47.5190541,28.2426796 52.0451041,28.2426796 C56.5711541,28.2426796 57.4865821,30.618232 57.4865821,33.6976519 L57.4865821,50.1505525 C57.4865821,53.2299724 56.2578613,55.429558 53.7126538,57.0132597 C48.4467074,60.5325967 41.0743823,63.7 31.858976,63.7 Z M103.187475,57.1892265 L103.187475,5.98287293 C103.187475,2.99143646 105.55715,0.615883978 108.628953,0.615883978 C111.612989,0.615883978 113.982665,2.99143646 113.982665,5.98287293 L113.982665,52.7900552 L141.804415,52.7900552 C144.525154,52.7900552 146.719299,54.9896409 146.719299,57.7171271 C146.719299,60.4446133 144.525154,62.6441989 141.804415,62.6441989 L108.628953,62.6441989 C105.55715,62.6441989 103.187475,60.2686464 103.187475,57.1892265 Z M193.786829,57.7171271 L193.786829,38.7127072 L172.635278,9.59019337 C171.933152,8.53439227 171.406557,7.30262431 171.406557,5.80690608 C171.406557,2.90345304 173.776233,0.615883978 176.848035,0.615883978 C179.217711,0.615883978 180.797495,1.93563536 182.113982,3.87127072 L199.228307,28.5946133 L204.58202,35.9349448 L204.58202,57.7171271 C204.58202,60.7085635 202.212344,63.084116 199.140542,63.084116 C196.156505,63.084116 193.786829,60.7085635 193.786829,57.7171271 Z M261.09064,57.7171271 L261.09064,6.51077348 C261.09064,3.43135359 263.460316,1.0558011 266.532118,1.0558011 L285.313994,1.0558011 C299.707581,1.0558011 308.65969,9.23825967 308.65969,21.6439227 L308.65969,21.8198895 C308.65969,35.6332873 297.601202,42.8479282 284.085273,42.8479282 L271.885831,42.8479282 L271.885831,57.7171271 C271.885831,60.7085635 269.516155,63.084116 266.532118,63.084116 C263.460316,63.084116 261.09064,60.7085635 261.09064,57.7171271 Z M271.885831,33.081768 L284.436336,33.081768 C292.598553,33.081768 297.688968,28.5066298 297.688968,22.0838398 L297.688968,21.9078729 C297.688968,14.693232 292.510788,10.9099448 284.436336,10.9099448 L271.885831,10.9099448 L271.885831,33.081768 Z M349.495851,57.7171271 L349.495851,5.98287293 C349.495851,2.99143646 351.865527,0.615883978 354.937329,0.615883978 C357.921365,0.615883978 360.291041,2.99143646 360.291041,5.98287293 L360.291041,26.6589779 L389.60481,26.6589779 L389.60481,5.98287293 C389.60481,2.99143646 391.974486,0.615883978 394.958522,0.615883978 C398.030324,0.615883978 400.4,2.99143646 400.4,5.98287293 L400.4,57.7171271 C400.4,60.7085635 398.030324,63.084116 394.958522,63.084116 C391.974486,63.084116 389.60481,60.7085635 389.60481,57.7171271 L389.60481,36.6890884 L360.291041,36.6890884 L360.291041,57.7171271 C360.291041,60.7085635 357.921365,63.084116 354.937329,63.084116 C351.865527,63.084116 349.495851,60.7085635 349.495851,57.7171271 Z" id="path-1"></path>
+        <filter x="-2.0%" y="-12.6%" width="104.0%" height="125.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="5" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="5" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+      
+        <path d="M31.858976,63.7 C12.6382715,63.7 0,49.9745856 0,32.0259669 C0,14.6052486 13.1648661,0 31.6834445,0 C40.8988508,0 47.042455,2.19958564 52.6594645,6.2468232 C53.7126538,7.03867403 54.8536089,8.53439227 54.8536089,10.6459945 C54.8536089,13.5494475 52.483933,16.0129834 49.4998967,16.0129834 C48.0956443,16.0129834 47.042455,15.3970994 46.1647972,14.7812155 C42.2153374,11.8777624 37.9148145,9.94212707 31.2446156,9.94212707 C19.9228307,9.94212707 11.3217849,19.8842541 11.3217849,31.6740331 C11.3217849,44.5196133 19.6595334,53.8458564 32.2100391,53.8458564 C38.0025802,53.8458564 43.2685267,51.9982044 47.042455,49.1827348 C47.042455,45.2528085 47.042455,41.4108656 47.042455,37.6569061 C47.042455,32.0259669 47.5190541,28.2426796 52.0451041,28.2426796 C56.5711541,28.2426796 57.4865821,30.618232 57.4865821,33.6976519 L57.4865821,50.1505525 C57.4865821,53.2299724 56.2578613,55.429558 53.7126538,57.0132597 C48.4467074,60.5325967 41.0743823,63.7 31.858976,63.7 Z M103.187475,57.1892265 L103.187475,5.98287293 C103.187475,2.99143646 105.55715,0.615883978 108.628953,0.615883978 C111.612989,0.615883978 113.982665,2.99143646 113.982665,5.98287293 L113.982665,52.7900552 L141.804415,52.7900552 C144.525154,52.7900552 146.719299,54.9896409 146.719299,57.7171271 C146.719299,60.4446133 144.525154,62.6441989 141.804415,62.6441989 L108.628953,62.6441989 C105.55715,62.6441989 103.187475,60.2686464 103.187475,57.1892265 Z M193.786829,57.7171271 L193.786829,38.7127072 L172.635278,9.59019337 C171.933152,8.53439227 171.406557,7.30262431 171.406557,5.80690608 C171.406557,2.90345304 173.776233,0.615883978 176.848035,0.615883978 C179.217711,0.615883978 180.797495,1.93563536 182.113982,3.87127072 L199.228307,28.5946133 L204.58202,35.9349448 L204.58202,57.7171271 C204.58202,60.7085635 202.212344,63.084116 199.140542,63.084116 C196.156505,63.084116 193.786829,60.7085635 193.786829,57.7171271 Z M261.09064,57.7171271 L261.09064,6.51077348 C261.09064,3.43135359 263.460316,1.0558011 266.532118,1.0558011 L285.313994,1.0558011 C299.707581,1.0558011 308.65969,9.23825967 308.65969,21.6439227 L308.65969,21.8198895 C308.65969,35.6332873 297.601202,42.8479282 284.085273,42.8479282 L271.885831,42.8479282 L271.885831,57.7171271 C271.885831,60.7085635 269.516155,63.084116 266.532118,63.084116 C263.460316,63.084116 261.09064,60.7085635 261.09064,57.7171271 Z M271.885831,33.081768 L284.436336,33.081768 C292.598553,33.081768 297.688968,28.5066298 297.688968,22.0838398 L297.688968,21.9078729 C297.688968,14.693232 292.510788,10.9099448 284.436336,10.9099448 L271.885831,10.9099448 L271.885831,33.081768 Z M349.495851,57.7171271 L349.495851,5.98287293 C349.495851,2.99143646 351.865527,0.615883978 354.937329,0.615883978 C357.921365,0.615883978 360.291041,2.99143646 360.291041,5.98287293 L360.291041,26.6589779 L389.60481,26.6589779 L389.60481,5.98287293 C389.60481,2.99143646 391.974486,0.615883978 394.958522,0.615883978 C398.030324,0.615883978 400.4,2.99143646 400.4,5.98287293 L400.4,57.7171271 C400.4,60.7085635 398.030324,63.084116 394.958522,63.084116 C391.974486,63.084116 389.60481,60.7085635 389.60481,57.7171271 L389.60481,36.6890884 L360.291041,36.6890884 L360.291041,57.7171271 C360.291041,60.7085635 357.921365,63.084116 354.937329,63.084116 C351.865527,63.084116 349.495851,60.7085635 349.495851,57.7171271 Z" id="path-3"></path>
+        <ellipse id="path-5" cx="222.444444" cy="6.37" rx="6.35555556" ry="6.37"></ellipse>
+        <filter x="-334.4%" y="-263.0%" width="768.7%" height="767.2%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="9" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="11" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.834975091 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.837182971 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" transform="translate(0.000000, 12.000000)">
+            <g id="main-shadow" fill="black" fill-opacity="1">
+                <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+            </g>
+          
+            <g id="Rectangle-4">
+              
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3">
+                      
+                  </use>
+                  
+                </mask>
+              
+                <g id="Mask">
+                  
+              </g>
+              
+                <rect id="main-mask" stroke="#979797" fill="white" mask="url(#mask-4)" x="-11.5" y="-6.5" width="0" height="77">
+                  
+                 
+                  
+              </rect>
+              
+            </g>
+          
+            <g id="Oval-2-Copy-5">
+              
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+
+
+ <script type="text/javascript">
+    TweenMax.to("#main-mask",2.5,{width:419,ease:Power4.easeIn,});
+   
+   TweenMax.to("#main-logo",2.5,{y:-200,opacity:0,ease:Expo.easeInOut,delay:2.5});
+  </script>
+</svg>
+  </div> 
+  </div>
+!-->
+
+ 
+  
+<div id="intro-page">
+  <div class="container nav-container">
+  <nav class="navbar navbar-expand-lg navbar-light ">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FILM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">TL:DR</a>
+      </li><li class="nav-item">
+        <a class="nav-link" href="#">API</a>
+      </li><li class="nav-item">
+        <a class="nav-link" href="#">ROADMAP</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link contact-btn " href="#">CONTACT</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav>
+</div><!--nav-container!-->
+
+  <div id="pop-up-message">
+    <div class="popup-I">
+      <span>!</span>  
+    </div>
+    <div class="popup-message-para">
+      <p>
+      Glyph is live and testing with a limited number of partners. Interested in joining that group? 
+    </p>  
+    </div>
+    
+  </div>
+<div class="container hero-container">
+  <div class="row">
+    
+    <div class="col-sm hero-left-content">
+    <div class="home-logo">
+      <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/668457/shadow-glyph.svg" alt="">
+    </div>
+    <div id="text-column">
+  <h1 class="title-1">Single-self </h1>   
+</div> 
+    <div id="text-column">
+  <h1 class="title-1">Identity. </h1>    
+</div>
+  <p class="hero-para">
+    The new standard for owning and proving identity to anyone, anywhere.
+  </p>  
+  </div><!--hero-left-content!-->
+  <div class="col-sm"></div>
+  <div class="col-md-7 hero-right-content">
+    <h4 class="side-content-header">Select your experience:</h4>
+    <div class="row hero-row">
+      
+      <div class="cards col-sm-5">
+        <a href="individual.html">
+         <div class="card-video">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/668457/sphere-loop-small.gif" alt="">
+        </div>
+      <div class="card-copy">
+        <h3>Individual</h3>
+        <p>
+          Learn what's happening to your data and how you can take control of it for the first time in history, all while making your life simpler and getting paid for being...yourself.
+        </p>
+      </div>
+        </a>
+    </div><!--card!-->
+        
+    
+    <div class="cards col-sm-5">
+      <div class="card-video">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/668457/sphere-loop-small.gif" alt="">
+        </div>
+      <div class="card-copy"> 
+        
+        <h3>Partner</h3>
+        <p>
+          Solve every problem you have with identity, from authentication to KYC, AML, AIC, and more. Let your users control their data AND get access to more information that you've ever had.
+        </p>
+      </div>
+    </div><!--card!-->
+    </div>
+    
+    
+  </div>
+    
+  </div>
+  
+  
+</div>
+  
+</div>
+
+
+
+    <script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
